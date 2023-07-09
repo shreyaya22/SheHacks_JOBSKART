@@ -1,0 +1,63 @@
+nav{
+$navbar-padding-y:                  $spacer * .5;
+$navbar-padding-x:                  null;
+
+$navbar-nav-link-padding-x:         .5rem;
+
+$navbar-brand-font-size:            $font-size-lg;
+// Compute the navbar-brand padding-y so the navbar-brand will have the same height as navbar-text and nav-link
+$nav-link-height:                   $font-size-base * $line-height-base + $nav-link-padding-y * 2;
+$navbar-brand-height:               $navbar-brand-font-size * $line-height-base;
+$navbar-brand-padding-y:            ($nav-link-height - $navbar-brand-height) * .5;
+$navbar-brand-margin-end:           1rem;
+
+$navbar-toggler-padding-y:          .25rem;
+$navbar-toggler-padding-x:          .75rem;
+$navbar-toggler-font-size:          $font-size-lg;
+$navbar-toggler-border-radius:      $btn-border-radius;
+$navbar-toggler-focus-width:        $btn-focus-width;
+$navbar-toggler-transition:         box-shadow .15s ease-in-out;
+}
+
+
+
+
+
+
+body{
+    background-image: url(../img/gradient.jpg);
+    background-size:100% 100% ;
+}
+
+
+
+header {
+    padding: 50px;
+    background-image: url(../img/business.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+
+    h2{ 
+        font-size: 1.2 rem;
+    }
+
+    form { 
+        margin-top: 50px;
+        max-width: 400px;
+    }
+}
+
+.card {
+    margin: 25px 0;
+}
+
+.loading-element {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: none;
+    &.loading {
+        display: block;
+    }
+}
+    

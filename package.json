@@ -1,0 +1,32 @@
+{
+  "name": "powerpuffs_shehacks",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "ansi-styles": "^3.2.1",
+    "axios": "^0.26.1",
+    "chalk": "^2.4.2",
+    "color-convert": "^1.9.3",
+    "color-name": "^1.1.3",
+    "dotenv": "^16.0.0",
+    "escape-string-regexp": "^1.0.5",
+    "follow-redirects": "^1.14.9",
+    "has-flag": "^3.0.0",
+    "supports-color": "^5.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IIT2021117/PowerPuffs_SheHacks.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/IIT2021117/PowerPuffs_SheHacks/issues"
+  },
+  "homepage": "https://github.com/IIT2021117/PowerPuffs_SheHacks#readme"
+}
